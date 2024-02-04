@@ -145,5 +145,3 @@
 # text = "Hello"
 # data = collections.Counter(text)
 # print(set(data.elements()))
-
-
