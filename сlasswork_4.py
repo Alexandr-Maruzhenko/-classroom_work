@@ -147,11 +147,3 @@
 # print(set(data.elements()))
 
 
-count_users = int(input("Введите количество пользователей: "))
-nested_dictionary = dict.fromkeys(["name", "email"])
-main_dictionary = {i: nested_dictionary for i in range(count_users)}
-for i in main_dictionary:
-    name = input("Имя пользователя " + str(i+1) + ": ")
-    main_dictionary[i]["name"] = name
-    email = input("E-mail пользователя " + str(i+1) + ": ")
-    main_dictionary[i]["email"] = email
