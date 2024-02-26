@@ -1,0 +1,12 @@
+{
+  "first_name": "Alex",
+  "last_name": "Maruzhenko",
+  "age": 25,
+  "is_human": true,
+  "city": null,
+  "languales": ["ru", "en"],
+  "referrer": {
+    "first_name": "Belhard"
+  }
+}
+
